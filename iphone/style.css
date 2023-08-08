@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,600;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.continer{
+    width: 100%;
+    min-height: 100vh;
+    background: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo{
+    width: 40px;
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    width: 80%;
+}
+.content .text{
+    width: 40%;
+    color: #fff;
+}
+.content .text h2{
+    text-transform: uppercase;
+    font-size: 40px;
+
+}
+.content .text p{
+    font-size: 18px;
+    margin: 20px 0;
+}
+.content .text a{
+    text-decoration: none;
+    color: #000;
+    background: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+.content .image{
+    width: 30%;
+}
+.content .image img{
+    width: 180px;
+}
+.icons{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.icons img{
+    width: 40px;
+    transition: 0.5s;
+}
+.icons img:hover{
+    transform: scale(1.25);
+    cursor: pointer;
+}
